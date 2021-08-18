@@ -13,7 +13,7 @@ class UserAuthorization with ChangeNotifier {
 
   Future<void> signUP(String firstName, String lastName, String mobileNo,
       String email, String password) async {
-    const url = "http://70.35.200.130/api/auth/register";
+    const url = "";
 
     Map userData = {
       "FirstName": firstName,
