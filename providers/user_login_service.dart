@@ -28,7 +28,7 @@ class LoginAuthorization with ChangeNotifier {
   }
 
   Future<void> signIn(String email, String password) async {
-    const url = "http://70.35.200.130/api/auth/login";
+    const url = "";
     try {
       final response = await post(
         Uri.encodeFull(url),
